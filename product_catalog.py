@@ -6,7 +6,7 @@ class productCatalog:
         self.products.append(product)
     def view_product(self):
         for p in self.products:
-            print("Name",p.name)
+            print("Name",p.name,"and price is",p.price)
             print(p.price)
             print(p.stock_quantity)
     def getproduct(self,product_name):
